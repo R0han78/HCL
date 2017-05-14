@@ -1,0 +1,18 @@
+CREATE TABLE SALES (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  Region VARCHAR(255),
+  Branch VARCHAR(255),
+  LoB VARCHAR(255),
+  Vertical VARCHAR(255),
+  Profit_Centre INT,
+  Partner_cd BIGINT(10),
+  Partner_name VARCHAR(255),
+  Inv_no BIGINT(10),
+  Inv_dt VARCHAR(255),
+  Item_cd VARCHAR(255),
+  Item_name VARCHAR(255),
+  Qty FLOAT,
+  Revenue FLOAT,
+  Emp_Cd INT,
+  Emp_name VARCHAR(255)
+);
